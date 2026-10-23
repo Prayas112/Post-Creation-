@@ -53,7 +53,7 @@ const Post = ({ user, post, handlelikepost, handleunlikepost }) => {
         <img
           src={
             user?.profileImage ||
-            "../public/user.png"
+            "/user.png"
           }
           alt="profile"
           style={{
